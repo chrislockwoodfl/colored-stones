@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Colored Stones</title>
+    <link
+      rel = "stylesheet"
+      href = "style.css"
+    />
+   <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+    />
+    <script src="colored-stones.js"></script>
+  </head>
+  <body>
+    <h1>Colored Stones</h1>
+    <div>
+    <p>Bob has a row of stones on his table, each colored red, green, or blue, represented by the letters R, G, and B. This program will help Bob determine the fewest stones he must remove so that no two adjacent stones are the same color.
+    </p>
+    <p>Enter a string below containing just R, G, and B characters.
+    </p>
+    <form onsubmit="processInput(event)">
+    <label for="stones">Stone string:</label>
+    <input type="text" id="stones" name="stones" length="30"><br><br>
+    <input type="submit" value="Submit" class="button">
+   </form>
+   <p id="demo"></p>
+    </div>
+  </body>
+</html>
+  <!--  <button onclick="fixInput()">Try it</button> -->
